@@ -285,7 +285,8 @@ a { color: inherit; }
 
 /* Case studies */
 
-.case + .case {
+.case + .case,
+.products + .case {
   margin-top: clamp(72px, 9vw, 120px);
   padding-top: clamp(48px, 6vw, 72px);
   border-top: 1px solid var(--line);
